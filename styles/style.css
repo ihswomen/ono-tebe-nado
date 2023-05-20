@@ -1,3 +1,9 @@
+.container {
+  min-width: 1100px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
 .header {
   display: grid;
   grid-template-columns: 2fr 1fr 2fr;
