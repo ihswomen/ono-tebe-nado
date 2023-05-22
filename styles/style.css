@@ -149,7 +149,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-left: 422px;
+  justify-content: right;
   gap: 78px;
   color: #fff;
   padding-top: 135px;
@@ -169,13 +169,14 @@
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
+  padding: 12px 0;
   width: 257px;
-  height: 52px;
   text-transform: uppercase;
   background: none;
   color: #fff;
   border: #fff solid 1px;
   text-align: center;
+  margin-right: 50px;
 }
 
 .lots {
@@ -211,10 +212,11 @@
 .card {
   width: 100%;
   position: relative;
-  z-index: -2;
+  z-index: 1;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  min-height: 450px;
 }
 
 .card-link {
@@ -225,7 +227,6 @@
 
 .card_type_film {
   background: url(../images/card-lot-01.jpg) no-repeat center/cover;
-  height: 450px;
 }
 
 .card_type_book {
@@ -253,9 +254,7 @@
 .card__text {
   font-size: 20px;
   line-height: 120%;
-  padding-bottom: 50px;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding: 0 40px 50px 40px;
   color: #fff;
   margin: 0;
 }
